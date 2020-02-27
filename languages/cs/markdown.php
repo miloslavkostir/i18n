@@ -3,55 +3,55 @@
 return [
 
     'cheatsheet' => '
-<p>Markdown is a text-to-HTML markup syntax for web writers. Markdown allows you to write using an easy-to-read, easy-to-write plain text format that is converted to structurally valid HTML.</p>
+<p>Markdown je odlehčený značkovací jazyk, který slouží pro úpravu prostého textu a jeho následný převod na formátovaný text publikovatelný na webu, zejména ve formátu HTML.</p>
 
-<h3>Headers</h3>
-<pre class="language-markdown"><code># This is an h1
-## This is an h2
-### This is an h3, and so on.
+<h3>Nadpisy</h3>
+<pre class="language-markdown"><code># Toto je nadpis 1. úrovně
+## Toto je nadpis 2. úrovně
+### Toto je nadpis 3. úrovně atd.
 </code></pre>
 
-<h3>Bold &amp; Italic</h3>
-<pre class="language-markdown"><code>You can make things *emphasized*, **bold**, or _**both**_.</code></pre>
+<h3>Tučné &amp; Kurzíva</h3>
+<pre class="language-markdown"><code>Můžete psát *kurzívu*, **tučný text**, nebo _**oboje**_</code></pre>
 
-<h3>Links</h3>
-<pre class="language-markdown"><code>This is an [example link](http://example.com).</code></pre>
+<h3>Odkazy</h3>
+<pre class="language-markdown"><code>Toto je [odkaz](http://nejaka-stranka.com)</code></pre>
 
-<h3>Code</h3>
+<h3>Kód</h3>
 <p>
-Wrap your code with 3 backticks (<code>```</code>) on the line before and after.
+Text mezi (<code>```</code>) se zobrazí jako kód (neproporcionální text).
 </p>
 
 <pre class="language-markdown"><code>```
-this: is some yaml
+echo: "Toto je kód PHP";
 ```</code></pre>
 
-<p>You can also add code inline by wrapping content with <code>`</code> single backticks.
+<p>Neproporcionálního textu (inline kód) lze docílit i obalením zpětnými uvozovekami <code>`inline kód`</code>.
 
-<h3>Quoting</h3>
+<h3>Citace</h3>
 
-<p>Create a blockquote by starting your text with <code>> </code>.</p>
+<p>Citaci vytvoříte tak, že na začátek textu vložíte znak <code>> </code></p>
 
-<pre class="language-markdown"><code>> This is going to be a blockquote.</code></pre>
+<pre class="language-markdown"><code>> Tento text se stane citací.</code></pre>
 
-<h3>Images</h3>
-<pre class="language-markdown"><code>![alt text](http://example.com/image.jpg)</code></pre>
+<h3>Obrázky</h3>
+<pre class="language-markdown"><code>![alternativní text](http://example.com/image.jpg)</code></pre>
 
-<h3>Unordered List</h3>
-<pre class="language-markdown"><code>- Bacon
+<h3>Nečíslovaný seznam</h3>
+<pre class="language-markdown"><code>- Slanina
 - Steak
-- Beer</code></pre>
+- Pivo</code></pre>
 
-<h3>Ordered List</h3>
-<pre class="language-markdown"><code>1. Eat
-2. Drink
-3. Be merry</code></pre>
+<h3>Číslovaný seznam</h3>
+<pre class="language-markdown"><code>1. Kobliha
+2. Koláč
+3. Zmrzlina</code></pre>
 
-<h3>Tables</h3>
+<h3>Tabulky</h3>
 
-<pre class="language-markdown"><code>First Header  | Second Header
+<pre class="language-markdown"><code>Hlavička 1    | Hlavička 2
 ------------- | -------------
-Content Cell  | Content Cell
-Content Cell  | Content Cell</code></pre>'
+Obsah 1A      | Obsah 2A
+Obsah 1B      | Obsah 2B</code></pre>'
 
 ];
